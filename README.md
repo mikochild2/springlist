@@ -29,3 +29,13 @@ Collection of methods and classes for storing data in a database
 * @CreateTimestamp - sets the value of the field to the current tima and date during creation(exactly once)
 
 ### Thymeleaf
+* Thymeleaf is a server-side Java templating engine for both web and standalone JAR apps. 
+* Thymeleaf sits on top of existing HTML, so we write HTML like normal and just add a few things to make it a Thymeleaf template.
+* https://www.thymeleaf.org/doc/articles/standarddialect5minutes.html
+
+#### Thymeleaf "Dialect" Basics
+${...} : Variable expressions.
+*{...} : Selection expressions.
+#{...} : Message (i18n) expressions.
+@{...} : Link (URL) expressions.
+~{...} : Fragment expressions.
