@@ -34,8 +34,8 @@ Collection of methods and classes for storing data in a database
 * https://www.thymeleaf.org/doc/articles/standarddialect5minutes.html
 
 #### Thymeleaf "Dialect" Basics
-${...} : Variable expressions.
-*{...} : Selection expressions.
-#{...} : Message (i18n) expressions.
-@{...} : Link (URL) expressions.
-~{...} : Fragment expressions.
+* ${...} : Variable expressions.
+* *{...} : Selection expressions.
+* #{...} : Message (i18n) expressions.
+* @{...} : Link (URL) expressions.
+* ~{...} : Fragment expressions.
