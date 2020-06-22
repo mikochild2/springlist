@@ -10,7 +10,7 @@
     <h3>Subscribe to my list below.</h3>
 
     <!-- action return to / which is home. object is subscriber. method is POST method -->
-    <form action="#" th:action="@{/}" th:object="${subscriber}" methods="POST">
+    <form action="#" th:action="@{/}" th:object="${subscriber}" method="POST">
         <label for="firstName">First Name</label>
         <input type="text" name="firstName" th:field="*{firstName}"/>
 
